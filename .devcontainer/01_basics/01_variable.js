@@ -4,6 +4,8 @@ var accoutCity = "jaipur";
 accoutEmail = "patidarmamta@gmail.com";
 let accoutState ;
 
-console.log(accoutId);
+ accoutCity = "shajapur";
+ 
+// console.log(accoutId);
 
 console.table([accoutCity, accoutId, accoutPassword, accoutState, accoutEmail])
