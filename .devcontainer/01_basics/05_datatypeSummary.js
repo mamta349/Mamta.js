@@ -5,7 +5,8 @@ const name = "vedika";
 let num = 77;
 
 let id = Symbol("2233");
-
+ console.log(typeof Symbol);
+ 
 let kuku = true;
 let outline = null;
 
@@ -18,16 +19,35 @@ let number = 77.8;
 
 let array = ["mayu", "vedu", "avii", "kuku"];      
 
-   {
-    name = "vedika";
-    age = 23;                  // semicolumn ke under  object likhe jate hai;
+ let MyObj =  {
+    name : "vedika",
+    age : 23,                  // semicolumn ke under  object likhe jate hai;
 }
 
-MathMLElement(55)       // this is function;
+const myFuntion = function() {      // this is function;
+console.log("hello word");
+}
 
-console.log(typeof array);
-// console.log(typeof Object);
-console.log(typeof function);
+ console.log(typeof array);
+  console.log(typeof Object);
+
+
+  // nonprimitive data type ka return type funsion hota hai
+
+
+
+
+//********************************* memory *********************************//
+// two typs  1 stack memory (primitive)  2, heap memory (nonprimitie)
+
+let MyYoutubChannal = "code and chai";
+let anotheryoutub  = MyYoutubChannal;
+  anotheryoutub = "mySuperCode";
+  
+console.log(anotheryoutub);
+console.log(MyYoutubChannal);
+
+
 
 
 
